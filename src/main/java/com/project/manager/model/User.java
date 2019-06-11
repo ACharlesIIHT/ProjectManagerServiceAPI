@@ -11,17 +11,17 @@ public class User {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name = "User_ID")
+	@Column(name = "user_id")
 	private Long id;
-	@Column(name = "First_Name")
+	@Column(name = "first_name")
 	private String firstName;
-	@Column(name = "Last_Name")
+	@Column(name = "last_name")
 	private String lastName;
-	@Column(name = "Employee_ID")
+	@Column(name = "employee_id")
 	private String employeeId;
-	@Column(name = "Project_ID")
+	@Column(name = "project_id")
 	private String projectId;
-	@Column(name = "Task_ID")
+	@Column(name = "task_id")
 	private String taskId;
 
 	public String getTaskId() {

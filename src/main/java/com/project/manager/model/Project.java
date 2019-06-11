@@ -15,15 +15,15 @@ public class Project {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	@Column(name = "Project_ID")
+	@Column(name = "project_ID")
 	private long projectId;
-	@Column(name = "Project")
+	@Column(name = "project")
 	private String name;
-	@Column(name = "Priority")
+	@Column(name = "priority")
 	private int priority;
-	@Column(name = "Start_Date")
+	@Column(name = "start_Date")
 	private LocalDate startDate;
-	@Column(name = "End_Date")
+	@Column(name = "end_Date")
 	private LocalDate endDate;
 	@Transient
 	private String status;
