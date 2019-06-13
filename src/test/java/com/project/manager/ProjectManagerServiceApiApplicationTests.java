@@ -13,4 +13,8 @@ public class ProjectManagerServiceApiApplicationTests {
 	public void contextLoads() {
 	}
 
+	@Test
+	public void main() {
+		ProjectManagerServiceApiApplication.main(new String[] {});
+	}
 }
