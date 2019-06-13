@@ -90,7 +90,8 @@
 		</plugins>
 		<defaultGoal>install</defaultGoal>
         <!-- Source directory configuration -->
-        <sourceDirectory>src</sourceDirectory>
+        <sourceDirectory>src/main/java</sourceDirectory>
+    	<testSourceDirectory>src/test/java</testSourceDirectory>
 	</build>
 
 </project>
