@@ -11,6 +11,7 @@
 	<groupId>com.project.manager</groupId>
 	<artifactId>ProjectManagerServiceAPI</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
+	<packaging>war</packaging>
 	<name>ProjectManagerServiceAPI</name>
 	<description>Service for project manager</description>
 
